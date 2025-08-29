@@ -1,4 +1,4 @@
-# basic-devops
+# project 1 URL: https://roadmap.sh/projects/server-stats
 
 ## server-stats.sh
 
@@ -30,9 +30,8 @@ This script monitors and displays basic server statistics: CPU usage, memory usa
 #### 5. Script Execution
 - The last line, `monitor_server`, runs the monitoring function when the script is executed.
 
+------------
 
+# project 2 URL: https://roadmap.sh/projects/log-archive-tool
 
-
-
-
-project URL: https://roadmap.sh/projects/server-stats
+run the log archiver over any folder as `python logarch.py your-folder --email xyz@abc.com`
