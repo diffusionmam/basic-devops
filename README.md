@@ -29,3 +29,10 @@ This script monitors and displays basic server statistics: CPU usage, memory usa
 
 #### 5. Script Execution
 - The last line, `monitor_server`, runs the monitoring function when the script is executed.
+
+
+
+
+
+
+project URL: https://roadmap.sh/projects/server-stats
