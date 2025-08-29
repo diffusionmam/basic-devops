@@ -20,12 +20,11 @@ def main():
     parser.add_argument("log_directory", help="The path to the log directory to archive.")
     parser.add_argument("--email", help="Email address to send a notification to.")
     args = parser.parse_args()
+    # parser is used to parse the arguments passed to the script
 
-    # Set up a directory in your home folder to store the archives
     archive_storage_dir = Path.home() / 'log_archives'
     archive_storage_dir.mkdir(exist_ok=True)
 
-    # Set up a log file for this script's activity
     log_file = archive_storage_dir / 'archiver_activity.log'
     logging.basicConfig(
         level=logging.INFO,
